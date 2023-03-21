@@ -16,6 +16,7 @@ SOURCES += \
     moncanvas.cpp \
     piece.cpp \
     plateau.cpp \
+    possibilites.cpp
 
 HEADERS += \
     ../shared/qstd.h \
@@ -23,9 +24,11 @@ HEADERS += \
     moncanvas.h \
     piece.h \
     plateau.h \
+    possibilites.h
 
 FORMS += \
-    mainwindow.ui
+    mainwindow.ui \
+    possibilites.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
